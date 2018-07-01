@@ -23,3 +23,7 @@ git clone https://github.com/AmolAmrit/proprietary_vendor_xiaomi -b oreo vendor/
 
 git clone https://gitlab.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2.git prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
 
+#Set-up ccache (this makes my build to cook fast)
+echo 'export USE_CCACHE=1' >> ~/.bashrc
+source ~/.bashrc
+ccache -M 50
