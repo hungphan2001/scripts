@@ -8,8 +8,7 @@ rm -rf hardware/qcom/media-caf/msm8996
 git clone https://github.com/hungphan2001/proprietary_vendor_xiaomi -b pie vendor/xiaomi
 git clone https://github.com/hungphan2001/android_device_xiaomi_msm8953-common -b pie device/xiaomi/msm8953-common
 tree
-git clone https://github.com/hungphan2001/android_device_xiaomi_mido -b bootleg device/xiaomi/mido
-git clone https://github.com/hungphan2001/android_device_xiaomi_mido -b colt device/xiaomi/mido
+
 git clone https://github.com/hungphan2001/android_device_xiaomi_mido -b bliss device/xiaomi/mido
 
 Hals from aoscp
